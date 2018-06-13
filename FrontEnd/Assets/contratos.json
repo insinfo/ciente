@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "idPessoaJuridica":1,
+    "descricao":"Contrato de Locação de Computadores 001/2018",
+    "observacao":"Contrato para atender as necessidades da COTINF",
+    "ativo":1
+  },
+  {
+    "id":2,
+    "idPessoaJuridica":2,
+    "descricao":"Locação de Impressoras - SEMFAZ",
+    "observacao":"Contrato para atender Protocolo da Fazenda",
+    "ativo":1
+  },
+  {
+    "id":3,
+    "idPessoaJuridica":3,
+    "descricao":"Locação de Notebooks",
+    "observacao":"Atender os professores da SEMEDE",
+    "ativo":1
+  }
+]

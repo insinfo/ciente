@@ -1,0 +1,41 @@
+{
+  "draw": 1,
+  "length": 0,
+  "start": 0,
+  "search": "",
+  "order":[
+    {"nomeOrganograma": "asc"},
+    {"dataAbetura": "asc"},
+    {"prioridade": "asc"},
+    {"nomeSolicitante": "asc"},
+    {"idResponsavel": "asc"},
+    {"status": "asc"},
+    {"siglaOrganograma": "asc"},
+    {"nomeOrganograma": "asc"},
+    {"siglaSetor": "asc"},
+    {"nomeSetor": "asc"}
+  ],
+  "filters": [
+    {
+      "status": 0
+    },
+    {
+      "dataAbertura": {
+        "operator": ">",
+        "value": "2018-04-01"
+      }
+    },
+    {
+      "prioridade": {
+        "operator": ">",
+        "value": 1
+      }
+    },
+    {
+      "idResponsavel": 2827
+    },
+    {
+      "idSetor": 4
+    }
+  ]
+}/

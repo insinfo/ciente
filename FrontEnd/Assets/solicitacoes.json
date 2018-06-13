@@ -1,0 +1,313 @@
+{
+  "draw": 1,
+  "recordsTotal": 400,
+  "recordsFiltered": 80,
+  "data": [
+    {
+      "id": 5573,
+      "idSolicitacao": 3443,
+      "idSetor": 232,
+      "idServico": 88,
+      "idResponsavel": 45,
+      "dataEncaminhamento": "2017-04-13 16:29:42",
+      "dataInicioAtendimento": "2017-04-13 16:29:42",
+      "dataFimAtendimento": null,
+      "status": 0,
+      "historico": [
+        {
+          "id": 79869,
+          "idAtendimento": 5573,
+          "idUsuario": 45,
+          "dataComentario": "2017-04-13 16:29:42",
+          "comentario": "Cintia, Favor dar andamento... Sds, Alex Florindo",
+            "avatar": "http://jhjkghkjdsf",
+            "iniciais": "AF"
+        },
+        {
+          "id": 79889,
+          "idAtendimento": 5573,
+          "idUsuario": 23,
+          "dataComentario": "2017-04-17 09:01:43",
+          "comentario": "Para conhecimento. Provavelmente isso está acontecendo devido ao erro de join no select que não compara ano_exercicio do setor de origem. Favor solicitar os fontes dos seguintes arquivos, para que possa verificar os sqls: imprimeReciboEntrega.php, encaminhaProcessoLote.php e consulta listagem.php."
+        },
+        {
+          "id": 79890,
+          "idAtendimento": 5573,
+          "idUsuario": 45,
+          "dataComentario": "2017-04-26 10:30:11",
+          "comentario": "Mauricio, Somando a solicitação inicial de arquivos do SALI, segue mais esses arquivos que precisamos na versão correta para manutenção de erros. Sds, Alex Florindo"
+        },
+        {
+          "id": 79897,
+          "idAtendimento": 5573,
+          "idUsuario": 52,
+          "dataComentario": "2017-04-28 16:45:38",
+          "comentario": "Alex, segue o e-mail do Leandro da Empresa CCA (desenvolvedora do SALI): leandro@ccanet.com.br"
+        },
+        {
+          "id": 79937,
+          "idAtendimento": 5573,
+          "idUsuario": 105,
+          "dataComentario": "2017-04-29 08:15:22",
+          "comentario": "Mais problema encontrado, favor verificar relatório na pasta da TI"
+        },
+        {
+          "id": 79941,
+          "idAtendimento": 5573,
+          "idUsuario": 11,
+          "dataComentario": "2017-05-02 11:22:31",
+          "comentario": "Também foi encontrado problema de layout no sistema, as classes de CSS foram ajustadas"
+        },
+        {
+          "id": 79951,
+          "idAtendimento": 5573,
+          "idUsuario": 34,
+          "dataComentario": "2017-05-02 12:59:00",
+          "comentario": "Alex, codificação efetuada e operacional, já foi colocado em produção"
+        }
+      ],
+      "solicitacao": {
+        "id": 3443,
+        "ano": 2017,
+        "numero": "04131629426573",
+        "idSetor": 23,
+        "idSolicitante": 456,
+        "idSolicitanteSec": 4667,
+        "idEquipamento": null,
+        "idAtendente": 5433,
+        "descricao": "Ao solicitar a impressão de encaminhamento de processo não aparecem os campos:Responsável pela emissão e origem. tel:27716298",
+        "dataAbertura": "2017-04-13 16:29:42",
+        "dataFechamento": null,
+        "prioridade": 2,
+        "status": 1,
+        "solicitante": {
+          "nome": "Ana Silva Barbosa",
+          "setor": "Conselho Municipal de Turismo"
+        },
+        "teste": {
+            "atributo": {
+                "valor": "5.000h"
+            }
+        }
+      }
+    },
+    {
+      "id": 6393,
+      "idSolicitacao": 3449,
+      "idSetor": 132,
+      "idServico": 12,
+      "idResponsavel": null,
+      "dataEncaminhamento": "2017-06-13 10:40:48",
+      "dataInicioAtendimento": null,
+      "dataFimAtendimento": null,
+      "status": 1,
+      "historico": [],
+      "solicitacao": {
+        "id": 3449,
+        "ano": 2017,
+        "numero": "06131040486534",
+        "idSetor": 27,
+        "idSolicitante": 256,
+        "idSolicitanteSec": 427,
+        "idEquipamento": null,
+        "idAtendente": 33,
+        "descricao": "Memorando nº 484/2017-SESEP encaminhou a Comunicação Interna nº 012/2017, solicitando o desenvolvimento de um sistema de Acompanhamento de Gestão de Atendimento e Serviço, utilizando o SAGAS como base.",
+        "dataAbertura": "2017-06-13 10:40:48",
+        "dataFechamento": null,
+        "prioridade": 0,
+        "status": 0,
+        "solicitante": {
+          "nome": "Rafael Cavalcanti Goncalves",
+          "setor": "Departamento de Petróleo e Gás"
+        },
+        "teste": {
+            "atributo": {
+                "valor": "qwert"
+            }
+        }
+      }
+    },  
+    {
+      "id": 6477,
+      "idSolicitacao": 3442,
+      "idSetor": 11,
+      "idServico": 121,
+      "idResponsavel": 34,
+      "dataEncaminhamento": "2017-11-28 09:08:29",
+      "dataInicioAtendimento": null,
+      "dataFimAtendimento": null,
+      "status": 0,
+      "historico": [],
+      "solicitacao": {
+        "id": 3442,
+        "ano": 2017,
+        "numero": "11280908295743",
+        "idSetor": 11,
+        "idSolicitante": 896,
+        "idSolicitanteSec": 11,
+        "idEquipamento": null,
+        "idAtendente": 38,
+        "descricao": "Alex, o Marcelo Chebor solicitou para iniciarmos os procedimentos para o desenvolvimento de um sistema capaz de importar automaticamente as informações do protocolo, gerenciar os prazos, entre outras funcionalidade. Favor agendar o mais breve possível uma reunião com o mesmo para um melhor entendimento das necessidades.",
+        "dataAbertura": "2017-11-28 09:08:29",
+        "dataFechamento": null,
+        "prioridade": 0,
+        "status": 0,
+        "solicitante": {
+          "nome": "Luis Fernandes Lima",
+          "setor": "Coordenadoria de Gestão de Pessoas"
+        },
+        "teste": {
+            "atributo": {
+                "valor": "HGFHFG"
+            }
+        }
+      }
+    },
+    {
+      "id": 6593,
+      "idSolicitacao": 3462,
+      "idSetor": 11,
+      "idServico": 121,
+      "idResponsavel": 23,
+      "dataEncaminhamento": "2017-11-28 15:04:39",
+      "dataInicioAtendimento": "2017-11-28 15:06:39",
+      "dataFimAtendimento": "2017-11-28 15:52:56",
+      "status": 2,
+      "historico": [
+        {
+          "id": 654654,
+          "idAtendimento": 6593,
+          "idUsuario": 45,
+          "dataComentario": "2017-11-28 15:04:39",
+          "comentario": "Favor dar andamento a solicitação. Sds, Alex Florindo"
+        },
+        {
+          "id": 654656,
+          "idAtendimento": 6593,
+          "idUsuario": 45,
+          "dataComentario": "2017-11-28 15:52:56",
+          "comentario": "Favor dar andamento a solicitação. Sds, Alex Florindo"
+        }
+      ],
+      "solicitacao": {
+        "id": 3462,
+        "ano": 2017,
+        "numero": "11281504396312",
+        "idSetor": 11,
+        "idSolicitante": 896,
+        "idSolicitanteSec": 11,
+        "idEquipamento": null,
+        "idAtendente": 38,
+        "descricao": "Usuário Marco Antonio da Conceição Ribeiro encaminhou formulário de solicitação de criação/alteração de conta de acesso ao Sistema SALI, em resposta ao Memo 171-COTINF. Documentos em anexo.",
+        "dataAbertura": "2017-11-28 15:04:39",
+        "dataFechamento": null,
+        "prioridade": 3,
+        "status": 0,
+        "solicitante": {
+          "nome": "Vitoria Almeida Carvalho",
+          "setor": "Coordenadoria de Gestão de Pessoas"
+        },
+        "teste": {
+            "atributo": {
+                "valor": "zxcvb"
+            }
+        }
+      }
+    },
+    {
+      "id": 1934,
+      "idSolicitacao": 3599,
+      "idSetor": 11,
+      "idServico": 121,
+      "idResponsavel": 52,
+      "dataEncaminhamento": "2017-11-28 16:02:47",
+      "dataInicioAtendimento": "2017-11-29 10:44:33",
+      "dataFimAtendimento": "2017-11-30 09:06:28",
+      "status": 3,
+      "historico": [
+        {
+          "id": 75675,
+          "idAtendimento": 1934,
+          "idUsuario": 51,
+          "dataComentario": "2017-11-29 10:44:33",
+          "comentario": "Para as providências Cabiveis."
+        },
+        {
+          "id": 75678,
+          "idAtendimento": 1934,
+          "idUsuario": 34,
+          "dataComentario": "2017-11-30 09:06:28",
+          "comentario": "Alex, quem vai responder por este domínio? Att."
+        }
+      ],
+      "solicitacao": {
+        "id": 3599,
+        "ano": 2017,
+        "numero": "11281602479846",
+        "idSetor": 13,
+        "idSolicitante": 56,
+        "idSolicitanteSec": 12,
+        "idEquipamento": null,
+        "idAtendente": 42,
+        "descricao": "Solicito a criação do subdomínio: http://jubarte.riodasostras.rj.gov.br",
+        "dataAbertura": "2017-11-28 16:02:47",
+        "dataFechamento": null,
+        "prioridade": 1,
+        "status": 0,
+        "solicitante": {
+          "nome": "Douglas Goncalves Sousa",
+          "setor": "Departamento de Patrimônio e Serviços Gerais"
+        },
+        "teste": {
+            "atributo": {
+                "valor": "poiuy"
+            }
+        }
+      }
+    },
+    {
+      "id": 1966,
+      "idSolicitacao": 3599,
+      "idSetor": 11,
+      "idServico": 121,
+      "idResponsavel": 105,
+      "dataEncaminhamento": "2017-11-30 10:59:56",
+      "dataInicioAtendimento": "2017-11-29 10:44:33",
+      "dataFimAtendimento": "2017-12-01 07:50:24",
+      "status": 4,
+      "historico": [
+        {
+          "id": 75679,
+          "idAtendimento": 1966,
+          "idUsuario": 11,
+          "dataComentario": "2017-12-01 07:50:24",
+          "comentario": "Alex, domínio criado. Favor efetuar os devidos testes. Att."
+        }
+      ],
+      "solicitacao": {
+        "id": 3599,
+        "ano": 2017,
+        "numero": "11281602479846",
+        "idSetor": 13,
+        "idSolicitante": 56,
+        "idSolicitanteSec": 12,
+        "idEquipamento": null,
+        "idAtendente": 42,
+        "descricao": "Solicito a criação do subdomínio: http://jubarte.riodasostras.rj.gov.br",
+        "dataAbertura": "2017-11-28 16:02:47",
+        "dataFechamento": null,
+        "prioridade": 0,
+        "status": 0,
+        "solicitante": {
+          "nome": "Amanda Alves Souza",
+          "setor": "Divisão de Lançamento e Processamento"
+        },
+        "teste": {
+            "atributo": {
+                "valor": ";lkjh"
+            }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+    "draw": 1,
+    "recordsTotal": 45675,
+    "recordsFiltered": 7,
+    "data": [
+        {
+          "idPessoa": 1,
+          "idSetor": 4,
+          "perfil": "Líder",
+          "nome": "Alex Florindo",
+          "cargo": "Coordenador",
+          "avatar": "/ciente/Assets/images/time/alex.jpeg",
+          "atendimentos": 26
+        },
+        {
+          "idPessoa": 18,
+          "idSetor": 4,
+          "perfil": "Usuário",
+          "nome": "Aline Cruz",
+          "cargo": "Programador",
+          "avatar": "/ciente/Assets/images/time/aline.jpeg",
+          "atendimentos": 8
+        },
+        {
+          "idPessoa": 23,
+          "idSetor": 22,
+          "perfil": "Usuário",
+          "nome": "Cíntia Santos",
+          "cargo": "Analista de Sistemas",
+          "avatar": "/ciente/Assets/images/time/cintia.jpeg",
+          "atendimentos": 11
+        },
+        {
+          "idPessoa": 2,
+          "idSetor": 4,
+          "perfil": "Usuário",
+          "nome": "Isaque Neves",
+          "cargo": "Programador",
+          "avatar": "/ciente/Assets/images/time/isaque.jpeg",
+          "atendimentos": 2
+        },
+        {
+          "idPessoa": 4,
+          "idSetor": 4,
+          "perfil": "Usuário",
+          "nome": "José Neto",
+          "cargo": "Programador",
+          "avatar": "/ciente/Assets/images/time/neto.jpeg",
+          "atendimentos": 6
+        },
+        {
+          "idPessoa": 3,
+          "idSetor": 4,
+          "perfil": "Usuário",
+          "nome": "Leonardo Calheiros",
+          "cargo": "Web Designer",
+          "avatar": "/ciente/Assets/images/time/leonardo.jpeg",
+          "atendimentos": 7
+        },
+        {
+          "idPessoa": 105,
+          "idSetor": 22,
+          "perfil": "Usuário",
+          "nome": "Marcos Queiroz",
+          "cargo": "Analista de Sistemas",
+          "avatar": "/ciente/Assets/images/time/marcos.jpeg",
+          "atendimentos": 13
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id":1,
+    "sigla":"SEMAD",
+    "nome":"Secretaria Municipal de Administração Pública"
+  },
+  {
+    "id":19,
+    "sigla":"COTINF",
+    "nome":"Coordenadoria de Tecnologia da Informação"
+  },
+  {
+    "id":22,
+    "sigla":"DEPAG",
+    "nome":"Departamento de Protocolo e Arquivo Geral"
+  }
+]

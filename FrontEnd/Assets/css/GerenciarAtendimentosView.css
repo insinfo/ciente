@@ -1,0 +1,161 @@
+/* Espaçamento das Label */
+.select2-selection--single:not([class*=bg-]):not([class*=border-]){
+    border: none;
+}
+.select2-container--focus .select2-selection--single:not([class*=bg-]):not([class*=border-]), .select2-container--open .select2-selection--single:not([class*=bg-]):not([class*=border-]){
+    border: none;
+    box-shadow: none;
+}
+
+.dropdownNavbar span{
+    width: auto !important;
+    top: 7px;
+}
+
+.dropdownList{
+    width: 200px !important;
+}
+
+.dropdownList span{
+    box-shadow: #aaaaaa 0px 0px 3px;
+}
+
+.dropdownList span ul li:first-child{
+    color: #999999;
+}
+
+.dropdownNavbarIconeNavbar{
+    position: absolute;
+    padding-top: 7px;
+}
+
+.dropdownConfig{
+    width: 140px !important;
+}
+.dropdownConfigResp{
+    width: 250px !important;
+}
+
+.gerenciaAtendimentoIconeUsuario{
+    position: absolute;
+    padding-top: 2px;
+}
+
+.select2-selection--single{
+    margin-top: -9px;
+    padding-left: 25px;
+}
+
+.select2-selection--single[class*=bg-] .select2-selection__rendered {
+    padding-left: 2px;
+    padding-right: 0;
+}
+
+.select2-selection--single[class*=bg-] .select2-selection__arrow:after {
+    right: 5px;
+}
+
+.select2-container{
+    width: auto !important;
+    top: 2px;
+}
+
+.selectPriority{
+    height: 20px;
+    width: 75px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 500;
+    padding: 1px 5px 1px 5px;
+    line-height: 1.5384616;
+    border: 1px solid transparent;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    border-radius: 2px;
+    padding-left: 5px !important;
+}
+/* Fim Espaçamento da Label de Prioridade */
+
+.panel-heading {
+    padding: 15px 0px 15px 20px;
+}
+
+/* jSwitch */
+
+.jSwitchAjustes {
+    padding-top: 8px;
+    margin-left: -20px;
+}
+
+.cardItemThumbnailUser{
+    height: 32px;
+}
+
+/* Bootstrap-Select */
+
+.heading-elements:not(.visible-elements) .heading-text {
+    margin-top: -1px;
+}
+.navFilter .input-group {
+    position: relative;
+    top: 4px;
+}
+.navFilter .bootstrap-select button {
+    border-bottom-color: transparent !important;
+}
+.itemPrioridade button.dropdown-toggle > span.filter-option > i {
+    display: none;
+}
+.itemPrioridade .btn {
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 4px 0px 4px 8px;
+}
+
+.cardItemSelectPrioridade button {
+    width: 80px !important;
+}
+
+.itemPrioridade .caret {
+    right: 10px !important;
+}
+
+.bootstrap-select .btn-default { /* Altera todos os SELECTs */
+    border-bottom-color: transparent;
+}
+
+.bootstrap-select.btn-group.open > .btn-default.dropdown-toggle { /* Altera todos os SELECTs */
+    border-bottom-color: transparent;
+    box-shadow: 0 0 0 #0076af;
+}
+
+.bootstrap-select .btn-default:focus, .bootstrap-select .btn-default.focus, .bootstrap-select .btn-default:active, .bootstrap-select .btn-default.active { /* Altera todos os SELECTs */
+    border-bottom-color: transparent;
+    box-shadow: 0 0 0 #0076af;
+}
+
+/* /Bootstrap-Select */
+
+.minH {
+    min-height: 81px;
+    vertical-align: bottom;
+}
+
+/* ellipsis do solicitante */
+.data-solicitante{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Footer Prazos */
+.panel-footer-condensed {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.vencido {
+    background-color: #f001;
+}
+.vencendo {
+    background-color: #ff02;
+}
